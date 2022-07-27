@@ -1,0 +1,93 @@
+/* particulas*/
+
+#particles-js {
+
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+/* titulo */
+body{
+	margin: 0;
+}
+header{
+	display: flex;
+	min-height: 70px;
+	background-color: #096809;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+.logo img{
+	height: 100px;
+	margin-right: 10px;
+}
+.logo2{
+	display: flex;
+	align-items: center;
+}
+.logo2 img{
+	height: 200px;
+	margin-right: 10px;
+}
+h1{
+	background: #096809;
+	text-align: center;
+	color: #ffffff;
+	font-size: 70px;
+	text-shadow: 8px 4px 2px  black;
+}
+
+
+h2{
+	font-size: 30px;
+	text-align: center;
+	color: #169520;
+}
+
+
+.titu {
+		color:#0F951A;
+	font-size: 45px;
+	text-shadow: 5px 2px 1px  black;
+}
+
+
+/*imagenes*/
+.der img{
+	width: 350px;
+	border-radius: 70%;
+	align-self: center;
+	border: 5px solid green;
+	position: relative;
+bottom: 550px;
+}
+.izq img{
+	width: 350px;
+	border-radius: 70%;
+	align-self: center;
+	border: 5px solid green;
+	position: relative;
+bottom: 1240px;
+left: 850px;
+}
+footer p {
+ 	text-align: right;
+ 	font-size: 10px;
+ 	font-family: arial;
+ 	text-shadow: 1px 1px 2px black,
+ 	 0 0 1em blue, 0 0 0.2em blue;
+   color: white;
+   font: 1.0em Georgia, "Bitstream Charter", 
+   "URW Bookman L", 
+   "Century Schoolbook L", serif;
+   position: relative;
+    padding: 40px;
+    bottom: 1200px
+}

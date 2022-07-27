@@ -1,0 +1,79 @@
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+
+
+body{
+	margin: 0;
+}
+header{
+	display: flex;
+	min-height: 70px;
+	background-color: #096809;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+.logo img{
+	height: 100px;
+	margin-right: 10px;
+}
+.logo2{
+	display: flex;
+	align-items: center;
+}
+.logo2 img{
+	height: 200px;
+	margin-right: 10px;
+}
+
+
+
+
+
+h1{
+	background: #096809;
+	text-align: center;
+	color: #ffffff;
+	font-size: 70px;
+	text-shadow: 8px 4px 2px  black;
+}
+.face{
+	position: relative;
+	left: 270px;
+	bottom: 600px;
+	color: blue;
+}
+.ins{
+	position: relative;
+	left: 270px;
+	bottom: 500px;
+	color: #FF0B6B;
+}
+.you{
+	position: relative;
+	left: 270px;
+	bottom: 350px;
+	color:  red;
+}
+footer p {
+ 	text-align: right;
+ 	font-size: 10px;
+ 	font-family: arial;
+ 	text-shadow: 1px 1px 2px black,
+ 	 0 0 1em blue, 0 0 0.2em blue;
+   color: white;
+   font: 1.0em Georgia, "Bitstream Charter", 
+   "URW Bookman L", 
+   "Century Schoolbook L", serif;
+   position: relative;
+    padding: 40px;
+}
